@@ -2452,7 +2452,7 @@ function _G.Window(text,logo)
 						TweenService:Create(
 							textlist,
 							TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{TextColor3 = Color3.fromRGB(0, 194, 135)} -- UDim2.new(0, 128, 0, 25)
+							{TextColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
 						):Play()
 					end)
 
@@ -2460,7 +2460,7 @@ function _G.Window(text,logo)
 						TweenService:Create(
 							textlist,
 							TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{TextColor3 = Color3.fromRGB(255,255,255)} -- UDim2.new(0, 128, 0, 25)
+							{TextColor3 = Color3.fromRGB(255,25,25)} -- UDim2.new(0, 128, 0, 25)
 						):Play()
 					end)
 
@@ -2496,12 +2496,12 @@ function _G.Window(text,logo)
 					TweenService:Create(
 						TextLabel_TapDrop,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = Color3.fromRGB(255, 255, 255)} -- UDim2.new(0, 128, 0, 25)
+						{TextColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 					TweenService:Create(
 						DropArbt_listimage,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = Color3.fromRGB(255, 255, 255)} -- UDim2.new(0, 128, 0, 25)
+						{ImageColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 				end
 				)
@@ -2510,12 +2510,12 @@ function _G.Window(text,logo)
 					TweenService:Create(
 						TextLabel_TapDrop,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = Color3.fromRGB(155, 155, 155)} -- UDim2.new(0, 128, 0, 25)
+						{TextColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 					TweenService:Create(
 						DropArbt_listimage,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = Color3.fromRGB(155, 155, 155)} -- UDim2.new(0, 128, 0, 25)
+						{ImageColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 				end
 				)
