@@ -244,7 +244,7 @@ function _G.Window(text,logo)
 	focusui = false
 
 	if logo == nil then
-		logo = 15909395058
+		logo = 13575821723
 	end
 
 	local MainSceen = Instance.new("Frame")
@@ -270,7 +270,7 @@ function _G.Window(text,logo)
 	ClickFrame.Name = "ClickFrame"
 	ClickFrame.Parent = MainSceen
 	ClickFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	ClickFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+	ClickFrame.BackgroundColor3 = Color3.fromRGB(255, 254, 242)
 	ClickFrame.BackgroundTransparency = 1.000
 	ClickFrame.Position = UDim2.new(0.523499548, 0, 0.0531321168, 0)
 	ClickFrame.Size = UDim2.new(0, 527, 0, 34)
@@ -281,13 +281,13 @@ function _G.Window(text,logo)
 	NameReal.Parent = MainSceen
 	NameReal.Active = true
 	NameReal.AnchorPoint = Vector2.new(0.5, 0)
-	NameReal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	NameReal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	NameReal.BackgroundTransparency = 1.000
 	NameReal.Position = UDim2.new(0.513530612, 17, 0.0316386409, 0)
 	NameReal.Size = UDim2.new(0.931070328, -14, -0.0002422783, 20)
 	NameReal.Font = Enum.Font.GothamSemibold
 	NameReal.Text = tostring(text)
-	NameReal.TextColor3 = Color3.fromRGB(255, 0, 0)
+	NameReal.TextColor3 = Color3.fromRGB(255, 255, 255)
 	NameReal.TextSize = 15.000
 	NameReal.TextWrapped = true
 	NameReal.TextXAlignment = Enum.TextXAlignment.Left
@@ -296,7 +296,7 @@ function _G.Window(text,logo)
 	NotiFrame.Name = "NotiFrame"
 	NotiFrame.Parent = AlchemyUIXZ
 	NotiFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	NotiFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+	NotiFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	NotiFrame.BackgroundTransparency = 1
 	NotiFrame.Position = UDim2.new(1.2, 0, 0.0613496937, 0)
 	NotiFrame.Size = UDim2.new(0, 1632, 0, 100)
@@ -312,7 +312,7 @@ function _G.Window(text,logo)
 
 	function AlchemyUIXZui:Notification(text,text2,delays,logo)
 		if logo == nil then
-			logo = "15909395058"
+			logo = "13575821723"
 		end
 		if delays == nil then
 			delays = 1
