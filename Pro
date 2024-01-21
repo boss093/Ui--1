@@ -254,7 +254,7 @@ function _G.Window(text,logo)
 	MainSceen.Active = true
 	MainSceen.AnchorPoint = Vector2.new(0.5, 0.5)
 	MainSceen.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-	MainSceen.BorderColor3 = Color3.fromRGB(10, 10, 10)
+	MainSceen.BorderColor3 = Color3.fromRGB(255, 10, 10)
 	MainSceen.Position = UDim2.new(0.483071834, 0, 0.437730134, 0)
 	MainSceen.Size = UDim2.new(0, 553, 0, 466)
 	MainSceen.ClipsDescendants = true
@@ -281,13 +281,13 @@ function _G.Window(text,logo)
 	NameReal.Parent = MainSceen
 	NameReal.Active = true
 	NameReal.AnchorPoint = Vector2.new(0.5, 0)
-	NameReal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	NameReal.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 	NameReal.BackgroundTransparency = 1.000
 	NameReal.Position = UDim2.new(0.513530612, 17, 0.0316386409, 0)
 	NameReal.Size = UDim2.new(0.931070328, -14, -0.0002422783, 20)
 	NameReal.Font = Enum.Font.GothamSemibold
-	NameReal.Text = tostring(text).." - UI By Alchemy"
-	NameReal.TextColor3 = Color3.fromRGB(255, 255, 255)
+	NameReal.Text = tostring(text)
+	NameReal.TextColor3 = Color3.fromRGB(255, 25, 25)
 	NameReal.TextSize = 15.000
 	NameReal.TextWrapped = true
 	NameReal.TextXAlignment = Enum.TextXAlignment.Left
@@ -296,7 +296,7 @@ function _G.Window(text,logo)
 	NotiFrame.Name = "NotiFrame"
 	NotiFrame.Parent = AlchemyUIXZ
 	NotiFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	NotiFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	NotiFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 	NotiFrame.BackgroundTransparency = 1
 	NotiFrame.Position = UDim2.new(1.2, 0, 0.0613496937, 0)
 	NotiFrame.Size = UDim2.new(0, 1632, 0, 100)
@@ -312,7 +312,7 @@ function _G.Window(text,logo)
 
 	function AlchemyUIXZui:Notification(text,text2,delays,logo)
 		if logo == nil then
-			logo = "13575821723"
+			logo = "15909395058"
 		end
 		if delays == nil then
 			delays = 1
@@ -321,7 +321,7 @@ function _G.Window(text,logo)
 
 		TitleFrame.Name = "TitleFrame"
 		TitleFrame.Parent = NotiFrame
-		TitleFrame.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		TitleFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 		TitleFrame.Size = UDim2.new(0, 0, 0, 0)
 
 		local Main_UiStroke = Instance.new("UIStroke")
