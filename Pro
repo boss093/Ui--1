@@ -96,14 +96,14 @@ local Properties = {
 		BackgroundTransparency = 1,
 		Image = "http://www.roblox.com/asset/?id=5554237731",
 		ScaleType = Enum.ScaleType.Slice,
-		SliceCenter = Rect.new(255,25,25,297)
+		SliceCenter = Rect.new(3,3,297,297)
 	},
 	SmoothButton = {
 		AutoButtonColor = false,
 		BackgroundTransparency = 1,
 		Image = "http://www.roblox.com/asset/?id=5554237731",
 		ScaleType = Enum.ScaleType.Slice,
-		SliceCenter = Rect.new(255,25,25,297)
+		SliceCenter = Rect.new(3,3,297,297)
 	},
 	Shadow = {
 		Name = "Shadow",
@@ -253,8 +253,8 @@ function _G.Window(text,logo)
 	MainSceen.Parent = AlchemyUIXZ
 	MainSceen.Active = true
 	MainSceen.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainSceen.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-	MainSceen.BorderColor3 = Color3.fromRGB(255, 25, 25)
+	MainSceen.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+	MainSceen.BorderColor3 = Color3.fromRGB(10, 10, 10)
 	MainSceen.Position = UDim2.new(0.483071834, 0, 0.437730134, 0)
 	MainSceen.Size = UDim2.new(0, 553, 0, 466)
 	MainSceen.ClipsDescendants = true
@@ -270,7 +270,7 @@ function _G.Window(text,logo)
 	ClickFrame.Name = "ClickFrame"
 	ClickFrame.Parent = MainSceen
 	ClickFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	ClickFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+	ClickFrame.BackgroundColor3 = Color3.fromRGB(240, 244, 242)
 	ClickFrame.BackgroundTransparency = 1.000
 	ClickFrame.Position = UDim2.new(0.523499548, 0, 0.0531321168, 0)
 	ClickFrame.Size = UDim2.new(0, 527, 0, 34)
@@ -281,7 +281,7 @@ function _G.Window(text,logo)
 	NameReal.Parent = MainSceen
 	NameReal.Active = true
 	NameReal.AnchorPoint = Vector2.new(0.5, 0)
-	NameReal.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+	NameReal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	NameReal.BackgroundTransparency = 1.000
 	NameReal.Position = UDim2.new(0.513530612, 17, 0.0316386409, 0)
 	NameReal.Size = UDim2.new(0.931070328, -14, -0.0002422783, 20)
@@ -464,7 +464,7 @@ function _G.Window(text,logo)
 	TextButton7.ClipsDescendants = true
 	TextButton7.Position = UDim2.new(0.94, 0, 0.3, 0)
 	TextButton7.BorderSizePixel = 0
-	TextButton7.BackgroundColor3 = Color3.fromRGB(0, 194, 135)
+	TextButton7.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 	TextButton7.AutoButtonColor = false
 	TextButton7.FontSize = Enum.FontSize.Size11
 	TextButton7.TextSize = 11
@@ -1044,7 +1044,7 @@ function _G.Window(text,logo)
 				ToggleMainStroke.Parent = ToggleMain
 				ToggleMainStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 				ToggleMainStroke.LineJoinMode = Enum.LineJoinMode.Round
-				ToggleMainStroke.Color = Color3.fromRGB(0, 194, 135)
+				ToggleMainStroke.Color = Color3.fromRGB(255, 25, 25)
 				ToggleMainStroke.Transparency = 0.6
 
 				ToggleMainUICorner.CornerRadius = UDim.new(0, 6)
@@ -1094,7 +1094,7 @@ function _G.Window(text,logo)
 				Corner2.Name = "Corner2"
 				Corner2.Parent = Corner1
 				Corner2.AnchorPoint = Vector2.new(0.5, 0.5)
-				Corner2.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				Corner2.BackgroundColor3 = Color3.fromRGB(14, 199, 143)
 				Corner2.BorderSizePixel = 0
 				Corner2.Position = UDim2.new(0.200000003, 0, 0.5, 0)
 				Corner2.Size = UDim2.new(0, 15, 0, 15)
@@ -1156,7 +1156,7 @@ function _G.Window(text,logo)
 						TweenService:Create(
 							Corner1,
 							TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+							{BackgroundColor3 = Color3.fromRGB(35,35,35)} -- UDim2.new(0, 128, 0, 25)
 						):Play()
 						TweenService:Create(
 							Corner2,
@@ -1177,7 +1177,7 @@ function _G.Window(text,logo)
 						TweenService:Create(
 							Corner1,
 							TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+							{BackgroundColor3 = Color3.fromRGB(255, 255, 255)} -- UDim2.new(0, 128, 0, 25)
 						):Play()
 						TweenService:Create(
 							Corner2,
@@ -1205,7 +1205,7 @@ function _G.Window(text,logo)
 					TweenService:Create(
 						Corner1,
 						TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{BackgroundColor3 = Color3.fromRGB(35,35,35)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 					TweenService:Create(
 						Corner2,
@@ -1239,7 +1239,7 @@ function _G.Window(text,logo)
 				LockerImageLabel.Image = "http://www.roblox.com/asset/?id=3926305904"
 				LockerImageLabel.ImageRectOffset = Vector2.new(404, 364)
 				LockerImageLabel.ImageRectSize = Vector2.new(36, 36)
-				LockerImageLabel.ImageColor3 = Color3.fromRGB(255, 25, 25)
+				LockerImageLabel.ImageColor3 = Color3.fromRGB(255,25,25)
 
 				function check.togfunction:lock()
 					TweenService:Create(
@@ -1278,14 +1278,14 @@ function _G.Window(text,logo)
 
 				LineFrame.Name = "LineFrame"
 				LineFrame.Parent = ScrollingFrame_Pageframe
-				LineFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				LineFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				LineFrame.BackgroundTransparency = 1.000
 				LineFrame.Size = UDim2.new(0, 397, 0, 21)
 
 				LineMain.Name = "LineMain"
 				LineMain.Parent = LineFrame
 				LineMain.AnchorPoint = Vector2.new(0.5, 0.5)
-				LineMain.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				LineMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				LineMain.BorderSizePixel = 0
 				LineMain.Position = UDim2.new(0.5, 0, 0.5, 0)
 				LineMain.Size = UDim2.new(0, 397, 0, 2)
@@ -1310,7 +1310,7 @@ function _G.Window(text,logo)
 
 				LabelMain.Name = "LabelMain"
 				LabelMain.Parent = LabelFrame
-				LabelMain.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				LabelMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				LabelMain.BackgroundTransparency = 1.000
 				LabelMain.Size = UDim2.new(0, 397, 0, 41)
 				LabelMain.Font = Enum.Font.GothamSemibold
@@ -1332,7 +1332,7 @@ function _G.Window(text,logo)
 				TextFrame.Parent = ScrollingFrame_Pageframe
 				TextFrame.Active = true
 				TextFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-				TextFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				TextFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				TextFrame.BackgroundTransparency = 1.000
 				TextFrame.Position = UDim2.new(0.55, 0, 0.5, 0)
 				TextFrame.Size = UDim2.new(0, 401, 0, 41)
@@ -1347,7 +1347,7 @@ function _G.Window(text,logo)
 				LabelNameSliderxd.BorderSizePixel = 0
 				LabelNameSliderxd.Size = UDim2.new(0, 397, 0, 25)
 				LabelNameSliderxd.Font = Enum.Font.GothamSemibold
-				LabelNameSliderxd.TextColor3 = Color3.fromRGB(255, 25, 25)
+				LabelNameSliderxd.TextColor3 = Color3.fromRGB(136,136,138)
 				LabelNameSliderxd.TextSize = 12.000
 				LabelNameSliderxd.TextTransparency = 0
 				LabelNameSliderxd.Text = tostring(text)
@@ -1364,7 +1364,7 @@ function _G.Window(text,logo)
 				FrameBox.Name = "FrameBox"
 				FrameBox.Parent = TextFrame
 				FrameBox.AnchorPoint = Vector2.new(0.5, 0.5)
-				FrameBox.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				FrameBox.BackgroundColor3 = Color3.fromRGB(20,20,20)
 				FrameBox.BackgroundTransparency = 1
 				FrameBox.BorderSizePixel = 1
 				FrameBox.ClipsDescendants = true
@@ -1394,7 +1394,7 @@ function _G.Window(text,logo)
 				TextFrame2.Name = "TextFrame2"
 				TextFrame2.Parent = FrameBox
 				TextFrame2.AnchorPoint = Vector2.new(0.5, 0.5)
-				TextFrame2.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				TextFrame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				TextFrame2.BackgroundTransparency = 1.000
 				TextFrame2.BorderSizePixel = 0
 				TextFrame2.ClipsDescendants = true
@@ -1402,8 +1402,8 @@ function _G.Window(text,logo)
 				TextFrame2.Size = UDim2.new(0, 397, 0, 35)
 				TextFrame2.Font = Enum.Font.GothamSemibold
 				TextFrame2.PlaceholderText = text2
-				TextFrame2.PlaceholderColor3 = Color3.fromRGB(255, 25, 25)
-				TextFrame2.TextColor3 = Color3.fromRGB(255, 25, 25)
+				TextFrame2.PlaceholderColor3 = Color3.fromRGB(155, 155, 155)
+				TextFrame2.TextColor3 = Color3.fromRGB(155, 155, 155)
 				TextFrame2.TextSize = 12
 				TextFrame2.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1416,12 +1416,12 @@ function _G.Window(text,logo)
 					TweenService:Create(
 						TextFrame2,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{PlaceholderColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{PlaceholderColor3 = Color3.fromRGB(0, 194, 135)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 					TweenService:Create(
 						TextFrame2,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{TextColor3 = Color3.fromRGB(0, 194, 135)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 				end)
 
@@ -1434,12 +1434,12 @@ function _G.Window(text,logo)
 					TweenService:Create(
 						TextFrame2,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{PlaceholderColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{PlaceholderColor3 = Color3.fromRGB(155, 155, 155)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 					TweenService:Create(
 						TextFrame2,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{TextColor3 = Color3.fromRGB(155, 155, 155)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 				end)
 
@@ -1461,7 +1461,7 @@ function _G.Window(text,logo)
 				FrameButton.Name = "FrameButton"
 				FrameButton.Parent = ScrollingFrame_Pageframe
 				FrameButton.AnchorPoint = Vector2.new(0.5, 0.5)
-				FrameButton.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				FrameButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				FrameButton.BackgroundTransparency = 1.000
 				FrameButton.Position = UDim2.new(10, 0, 0.347239256, 0)
 				FrameButton.Size = UDim2.new(0, 401, 0, 5)
@@ -1469,7 +1469,7 @@ function _G.Window(text,logo)
 				local DropFrame = Instance.new("Frame")
 				DropFrame.Name = "DropFrame"
 				DropFrame.Parent = ScrollingFrame_Pageframe
-				DropFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				DropFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 				DropFrame.BackgroundTransparency = 1
 				DropFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 				DropFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1493,12 +1493,12 @@ function _G.Window(text,logo)
 				local LabelFrameDrop = Instance.new("TextLabel")
 				LabelFrameDrop.Name = "LabelFrameDrop"
 				LabelFrameDrop.Parent = DropFrame
-				LabelFrameDrop.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				LabelFrameDrop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				LabelFrameDrop.BackgroundTransparency = 1.000
 				LabelFrameDrop.Position = UDim2.new(0.01728395, 0, 0, 0)
 				LabelFrameDrop.Size = UDim2.new(0, 397, 0, 25)
 				LabelFrameDrop.Font = Enum.Font.Gotham
-				LabelFrameDrop.TextColor3 = Color3.fromRGB(255, 25, 25)
+				LabelFrameDrop.TextColor3 = Color3.fromRGB(136, 136, 138)
 				LabelFrameDrop.TextSize = 12.000
 				LabelFrameDrop.TextWrapped = true
 				LabelFrameDrop.TextXAlignment = Enum.TextXAlignment.Left
@@ -1520,7 +1520,7 @@ function _G.Window(text,logo)
 				local DropArbt_listimage = Instance.new("ImageLabel")
 				DropArbt_listimage.Name = "DropArbt_listimage"
 				DropArbt_listimage.Parent = LabelFrameDrop
-				DropArbt_listimage.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				DropArbt_listimage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				DropArbt_listimage.BackgroundTransparency = 1.000
 				DropArbt_listimage.Position = UDim2.new(0.934673369, 0, 0.099999994, 0)
 				DropArbt_listimage.Rotation = 90.000
@@ -1535,7 +1535,7 @@ function _G.Window(text,logo)
 				ScolDown.Name = "ScolDown"
 				ScolDown.Parent = LabelFrameDrop
 				ScolDown.Active = true
-				ScolDown.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				ScolDown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				ScolDown.BackgroundTransparency = 1.000
 				ScolDown.BorderSizePixel = 0
 				ScolDown.Position = UDim2.new(-0.0175879393, 0, 0.899999976, 0)
@@ -1559,7 +1559,7 @@ function _G.Window(text,logo)
 
 				ButtonDrop.Name = "ButtonDrop"
 				ButtonDrop.Parent = DropFrame
-				ButtonDrop.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				ButtonDrop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				ButtonDrop.BackgroundTransparency = 1.000
 				ButtonDrop.ClipsDescendants = true
 				ButtonDrop.Size = UDim2.new(0, 397, 0, 25)
@@ -1587,7 +1587,7 @@ function _G.Window(text,logo)
 					ListFrame.Name = "ListFrame"
 					ListFrame.Parent = ScolDown
 					ListFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-					ListFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					ListFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 					ListFrame.BackgroundTransparency = 1.000
 					ListFrame.BorderSizePixel = 0
 					ListFrame.Position = UDim2.new(0.5, 0, 0.163043484, 0)
@@ -1598,12 +1598,12 @@ function _G.Window(text,logo)
 					TextLabel_TapDro2p.Name = "TextLabel_TapDro2p"
 					TextLabel_TapDro2p.Parent = ListFrame
 					TextLabel_TapDro2p.AnchorPoint = Vector2.new(0.5, 0.5)
-					TextLabel_TapDro2p.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					TextLabel_TapDro2p.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					TextLabel_TapDro2p.BackgroundTransparency = 1.000
 					TextLabel_TapDro2p.Position = UDim2.new(0.508641958, 0, 0.5, 0)
 					TextLabel_TapDro2p.Size = UDim2.new(0, 397, 0, 30)
 					TextLabel_TapDro2p.Font = Enum.Font.GothamSemibold
-					TextLabel_TapDro2p.TextColor3 = Color3.fromRGB(255, 25, 25)
+					TextLabel_TapDro2p.TextColor3 = Color3.fromRGB(136, 136, 138)
 					TextLabel_TapDro2p.TextSize = 12.000
 					TextLabel_TapDro2p.TextXAlignment = Enum.TextXAlignment.Left
 					TextLabel_TapDro2p.Text = tostring(v)
@@ -1612,7 +1612,7 @@ function _G.Window(text,logo)
 
 					ButtonDrop2.Name = "ButtonDrop2"
 					ButtonDrop2.Parent = ListFrame
-					ButtonDrop2.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					ButtonDrop2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					ButtonDrop2.BackgroundTransparency = 1.000
 					ButtonDrop2.Size = UDim2.new(0, 397, 0, 30)
 					ButtonDrop2.Font = Enum.Font.SourceSans
@@ -1624,7 +1624,7 @@ function _G.Window(text,logo)
 
 					Line.Name = "Line"
 					Line.Parent = ButtonDrop2
-					Line.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					Line.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 					Line.BorderSizePixel = 0
 					Line.Position = UDim2.new(0, 0, 1, 0)
 					Line.Size = UDim2.new(0, 401, 0, 1)
@@ -1718,7 +1718,7 @@ function _G.Window(text,logo)
 					ListFrame.Name = "ListFrame"
 					ListFrame.Parent = ScolDown
 					ListFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-					ListFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					ListFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 					ListFrame.BackgroundTransparency = 1.000
 					ListFrame.BorderSizePixel = 0
 					ListFrame.Position = UDim2.new(0.5, 0, 0.163043484, 0)
@@ -1729,12 +1729,12 @@ function _G.Window(text,logo)
 					TextLabel_TapDro2p.Name = "TextLabel_TapDro2p"
 					TextLabel_TapDro2p.Parent = ListFrame
 					TextLabel_TapDro2p.AnchorPoint = Vector2.new(0.5, 0.5)
-					TextLabel_TapDro2p.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					TextLabel_TapDro2p.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					TextLabel_TapDro2p.BackgroundTransparency = 1.000
 					TextLabel_TapDro2p.Position = UDim2.new(0.508641958, 0, 0.5, 0)
 					TextLabel_TapDro2p.Size = UDim2.new(0, 397, 0, 30)
 					TextLabel_TapDro2p.Font = Enum.Font.GothamSemibold
-					TextLabel_TapDro2p.TextColor3 = Color3.fromRGB(255, 25, 25)
+					TextLabel_TapDro2p.TextColor3 = Color3.fromRGB(136, 136, 138)
 					TextLabel_TapDro2p.TextSize = 12.000
 					TextLabel_TapDro2p.TextXAlignment = Enum.TextXAlignment.Left
 					TextLabel_TapDro2p.Text = tostring(t)
@@ -1743,7 +1743,7 @@ function _G.Window(text,logo)
 
 					ButtonDrop2.Name = "ButtonDrop2"
 					ButtonDrop2.Parent = ListFrame
-					ButtonDrop2.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					ButtonDrop2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					ButtonDrop2.BackgroundTransparency = 1.000
 					ButtonDrop2.Size = UDim2.new(0, 397, 0, 30)
 					ButtonDrop2.Font = Enum.Font.SourceSans
@@ -1755,7 +1755,7 @@ function _G.Window(text,logo)
 
 					Line.Name = "Line"
 					Line.Parent = ButtonDrop2
-					Line.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					Line.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 					Line.BorderSizePixel = 0
 					Line.Position = UDim2.new(0, 0, 1, 0)
 					Line.Size = UDim2.new(0, 401, 0, 1)
@@ -1788,7 +1788,7 @@ function _G.Window(text,logo)
 				SliderFrame.Name = "SliderFrame"
 				SliderFrame.Parent = ScrollingFrame_Pageframe
 				SliderFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-				SliderFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				SliderFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 				SliderFrame.BackgroundTransparency = 1
 				SliderFrame.ClipsDescendants = true
 				SliderFrame.Position = UDim2.new(0.5, 0, 0.457317084, 0)
@@ -1814,13 +1814,13 @@ function _G.Window(text,logo)
 				LabelNameSlider.Name = "LabelNameSlider"
 				LabelNameSlider.Parent = SliderFrame
 				LabelNameSlider.AnchorPoint = Vector2.new(0.5, 0.5)
-				LabelNameSlider.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				LabelNameSlider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				LabelNameSlider.BackgroundTransparency = 1.000
 				LabelNameSlider.BorderSizePixel = 0
 				LabelNameSlider.Position = UDim2.new(0.16, 0, 0.3, 0)
 				LabelNameSlider.Size = UDim2.new(0, 114, 0, 20)
 				LabelNameSlider.Font = Enum.Font.Gotham
-				LabelNameSlider.TextColor3 = Color3.fromRGB(255, 25, 25)
+				LabelNameSlider.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelNameSlider.Text = tostring(text)
 				LabelNameSlider.TextSize = 12.000
 				LabelNameSlider.TextWrapped = true
@@ -1831,7 +1831,7 @@ function _G.Window(text,logo)
 				ShowValueFrame.Name = "ShowValueFrame"
 				ShowValueFrame.Parent = SliderFrame
 				ShowValueFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-				ShowValueFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				ShowValueFrame.BackgroundColor3 = Color3.fromRGB(10,10,10)
 				ShowValueFrame.BorderSizePixel = 0
 				ShowValueFrame.Position = UDim2.new(0.9, 0, 0.285106391, 0)
 				ShowValueFrame.Size = UDim2.new(0, 50, 0, 15)
@@ -1886,7 +1886,7 @@ function _G.Window(text,logo)
 				DefaultValue.Position = UDim2.new(0.65, 0, 0.15, 0)
 				DefaultValue.Size = UDim2.new(0, 15, 0, 15)
 				DefaultValue.Image = "rbxassetid://7072721335"
-				DefaultValue.ImageColor3 =  Color3.fromRGB(255, 25, 25)
+				DefaultValue.ImageColor3 =  Color3.fromRGB(255, 255, 255)
 
 				local Addvalue = Instance.new("ImageButton")
 
@@ -1908,20 +1908,20 @@ function _G.Window(text,logo)
 				Deletevalue.Position = UDim2.new(0.70, 0, 0.15, 0)
 				Deletevalue.Size = UDim2.new(0, 15, 0, 15)
 				Deletevalue.Image = "http://www.roblox.com/asset/?id=6035047377"
-				Deletevalue.ImageColor3 =  Color3.fromRGB(0, 194, 135)
+				Deletevalue.ImageColor3 =  Color3.fromRGB(255, 25, 25)
 
 				local CustomValue = Instance.new("TextBox")
 
 				CustomValue.Name = "CustomValue"
 				CustomValue.Parent = ShowValueFrame
 				CustomValue.AnchorPoint = Vector2.new(0.5, 0.5)
-				CustomValue.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				CustomValue.BackgroundColor3 = Color3.fromRGB(10,10,10)
 				CustomValue.BackgroundTransparency = 1.000
 				CustomValue.ClipsDescendants = true
 				CustomValue.Position = UDim2.new(0.501112819, 0, 0.5, 0)
 				CustomValue.Size = UDim2.new(0, 50, 0, 26)
 				CustomValue.Font = Enum.Font.Gotham
-				CustomValue.PlaceholderColor3 = Color3.fromRGB(255, 25, 25)
+				CustomValue.PlaceholderColor3 = Color3.fromRGB(222, 222, 222)
 				CustomValue.Text = ""
 				CustomValue.TextSize = 11
 				CustomValue.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -1936,7 +1936,7 @@ function _G.Window(text,logo)
 				ValueFrame.Name = "ValueFrame"
 				ValueFrame.Parent = SliderFrame
 				ValueFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-				ValueFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				ValueFrame.BackgroundColor3 = Color3.fromRGB(25,25,25)
 				ValueFrame.BorderSizePixel = 0
 				ValueFrame.Position = UDim2.new(0.499824077, 0, 0.800000012, 0)
 				ValueFrame.Size = UDim2.new(0, 395, 0, 5)
@@ -1962,7 +1962,7 @@ function _G.Window(text,logo)
 				PartValue.Parent = ValueFrame
 				PartValue.Active = true
 				PartValue.AnchorPoint = Vector2.new(0.5, 0.5)
-				PartValue.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				PartValue.BackgroundColor3 = Color3.fromRGB(10,10,10)
 				PartValue.BackgroundTransparency = 1.000
 				PartValue.Position = UDim2.new(0.498982757, 0, 0.300000012, 0)
 				PartValue.Size = UDim2.new(0, 395, 0, 5)
@@ -1986,7 +1986,7 @@ function _G.Window(text,logo)
 				ConneValue.Name = "ConneValue"
 				ConneValue.Parent = PartValue
 				ConneValue.AnchorPoint = Vector2.new(0.5, 0.5)
-				ConneValue.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				ConneValue.BackgroundColor3 = Color3.fromRGB(10,10,10)
 				ConneValue.Position = UDim2.new((de or 0)/max, 0.5, 0.6,0, 0)
 				ConneValue.Size = UDim2.new(0, 0, 0, 0)
 				ConneValue.BorderSizePixel = 0
@@ -2201,7 +2201,7 @@ function _G.Window(text,logo)
 
 				DropFrame.Name = "DropFrame"
 				DropFrame.Parent = ScrollingFrame_Pageframe
-				DropFrame.BackgroundColor3 =  Color3.fromRGB(255, 25, 25)-- Color3.fromRGB(249, 53, 139)
+				DropFrame.BackgroundColor3 =  Color3.fromRGB(35,35,35)-- Color3.fromRGB(249, 53, 139)
 				DropFrame.BorderSizePixel = 0
 				DropFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 				DropFrame.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -2228,12 +2228,12 @@ function _G.Window(text,logo)
 
 				LabelFrameDrop.Parent = DropFrame
 				LabelFrameDrop.Name = "LabelFrameDrop"
-				LabelFrameDrop.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				LabelFrameDrop.BackgroundColor3 = Color3.fromRGB(0, 136, 255)
 				LabelFrameDrop.Position = UDim2.new(0., 0, 0., 0)
 				LabelFrameDrop.Size =    UDim2.new(0, 395, 0, 30)
 				LabelFrameDrop.Font = Enum.Font.SourceSansSemibold
 				LabelFrameDrop.Text = ""
-				LabelFrameDrop.TextColor3 = Color3.fromRGB(255, 25, 25)
+				LabelFrameDrop.TextColor3 = Color3.fromRGB(155, 155, 155)
 				LabelFrameDrop.TextSize = 14.000
 				--   LabelFrameDrop.AnchorPoint = Vector2.new(0.5, 0.5)
 				LabelFrameDrop.BackgroundTransparency = 1
@@ -2244,12 +2244,12 @@ function _G.Window(text,logo)
 
 				TextLabel_TapDrop.Parent = LabelFrameDrop
 				TextLabel_TapDrop.Name = "TextLabel_TapDrop"
-				TextLabel_TapDrop.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				TextLabel_TapDrop.BackgroundColor3 = Color3.fromRGB(0, 136, 255)
 				TextLabel_TapDrop.Position = UDim2.new(0.04, 0, 0.14, 0)
 				TextLabel_TapDrop.Size =    UDim2.new(0, 140, 0, 20)
 				TextLabel_TapDrop.Font = Enum.Font.Gotham
 				TextLabel_TapDrop.Text = tostring(text)
-				TextLabel_TapDrop.TextColor3 = Color3.fromRGB(255, 25, 25)
+				TextLabel_TapDrop.TextColor3 = Color3.fromRGB(155, 155, 155)
 				TextLabel_TapDrop.TextSize = 12.000
 				--     TextLabel_TapDrop.AnchorPoint = Vector2.new(0.5, 0.5)
 				TextLabel_TapDrop.BackgroundTransparency = 1
@@ -2265,7 +2265,7 @@ function _G.Window(text,logo)
 				DropArbt_listimage.BorderSizePixel = 0
 				DropArbt_listimage.Size = UDim2.new(0, 25, 0, 25)
 				DropArbt_listimage.Image = "http://www.roblox.com/asset/?id=6031091004"
-				DropArbt_listimage.ImageColor3 = Color3.fromRGB(255, 25, 25)
+				DropArbt_listimage.ImageColor3 = Color3.fromRGB(155, 155, 155)
 
 				local ScolDown = Instance.new("ScrollingFrame")
 
@@ -2273,7 +2273,7 @@ function _G.Window(text,logo)
 				ScolDown.Position = UDim2.new(0.02, 0, 1., 0)
 				ScolDown.Parent = LabelFrameDrop
 				ScolDown.Active = true
-				ScolDown.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				ScolDown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				ScolDown.BorderSizePixel = 0
 				ScolDown.Size = UDim2.new(0, 395, 0, 115)
 				ScolDown.ScrollBarThickness = 3
@@ -2298,11 +2298,11 @@ function _G.Window(text,logo)
 
 				ButtonDrop.Parent = DropFrame
 				ButtonDrop.Name = "ButtonDrop"
-				ButtonDrop.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+				ButtonDrop.BackgroundColor3 = Color3.fromRGB(0, 136, 255)
 				ButtonDrop.Size = UDim2.new(0, 395, 0, 30)
 				ButtonDrop.Font = Enum.Font.SourceSansSemibold
 				ButtonDrop.Text = ""
-				ButtonDrop.TextColor3 = Color3.fromRGB(255, 25, 25)
+				ButtonDrop.TextColor3 = Color3.fromRGB(155, 155, 155)
 				ButtonDrop.TextSize = 13.000
 				--   ButtonDrop.AnchorPoint = Vector2.new(0.5, 0.5)
 				ButtonDrop.Position = UDim2.new(0., 0, 0., 0)
@@ -2346,7 +2346,7 @@ function _G.Window(text,logo)
 
 					listtog.Name = "listtog"
 					listtog.Parent = ScolDown
-					listtog.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					listtog.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
 					listtog.BackgroundTransparency =1
 					listtog.BorderSizePixel = 0
 					listtog.ClipsDescendants = true
@@ -2371,7 +2371,7 @@ function _G.Window(text,logo)
 					local farmtoglist = Instance.new("TextButton")
 
 					farmtoglist.Parent = listtextbutton
-					farmtoglist.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					farmtoglist.BackgroundColor3 = Color3.fromRGB(0, 194, 135)
 					farmtoglist.BorderColor3 = Color3.fromRGB(255, 255, 255)
 					farmtoglist.BorderSizePixel = 0
 					farmtoglist.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -2387,8 +2387,8 @@ function _G.Window(text,logo)
 					local farmtoglist2 = Instance.new("TextButton")
 
 					farmtoglist2.Parent = farmtoglist
-					farmtoglist2.BackgroundColor3 = Color3.fromRGB(255, 25, 25
-					farmtoglist2.BorderColor3 = Color3.fromRGB(255, 25, 25)
+					farmtoglist2.BackgroundColor3 = Color3.fromRGB(10,10,10)
+					farmtoglist2.BorderColor3 = Color3.fromRGB(0, 194, 135)
 					farmtoglist2.BorderSizePixel = 0
 					farmtoglist2.AnchorPoint = Vector2.new(0.5, 0.5)
 					farmtoglist2.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -2403,7 +2403,7 @@ function _G.Window(text,logo)
 					local listimage = Instance.new("ImageButton")
 
 					listimage.Parent = farmtoglist2
-					listimage.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+					listimage.BackgroundColor3 = Color3.fromRGB(0, 194, 135)
 					listimage.BackgroundTransparency = 0
 					listimage.AnchorPoint = Vector2.new(0.5, 0.5)
 					listimage.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -2452,7 +2452,7 @@ function _G.Window(text,logo)
 						TweenService:Create(
 							textlist,
 							TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{TextColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+							{TextColor3 = Color3.fromRGB(0, 194, 135)} -- UDim2.new(0, 128, 0, 25)
 						):Play()
 					end)
 
@@ -2460,7 +2460,7 @@ function _G.Window(text,logo)
 						TweenService:Create(
 							textlist,
 							TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{TextColor3 = Color3.fromRGB(255,25,25)} -- UDim2.new(0, 128, 0, 25)
+							{TextColor3 = Color3.fromRGB(255,255,255)} -- UDim2.new(0, 128, 0, 25)
 						):Play()
 					end)
 
@@ -2496,12 +2496,12 @@ function _G.Window(text,logo)
 					TweenService:Create(
 						TextLabel_TapDrop,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{TextColor3 = Color3.fromRGB(255, 255, 255)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 					TweenService:Create(
 						DropArbt_listimage,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{ImageColor3 = Color3.fromRGB(255, 255, 255)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 				end
 				)
@@ -2510,12 +2510,12 @@ function _G.Window(text,logo)
 					TweenService:Create(
 						TextLabel_TapDrop,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{TextColor3 = Color3.fromRGB(155, 155, 155)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 					TweenService:Create(
 						DropArbt_listimage,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = Color3.fromRGB(255, 25, 25)} -- UDim2.new(0, 128, 0, 25)
+						{ImageColor3 = Color3.fromRGB(155, 155, 155)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 				end
 				)
