@@ -270,7 +270,7 @@ function _G.Window(text,logo)
 	ClickFrame.Name = "ClickFrame"
 	ClickFrame.Parent = MainSceen
 	ClickFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	ClickFrame.BackgroundColor3 = Color3.fromRGB(240, 244, 242)
+	ClickFrame.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 	ClickFrame.BackgroundTransparency = 1.000
 	ClickFrame.Position = UDim2.new(0.523499548, 0, 0.0531321168, 0)
 	ClickFrame.Size = UDim2.new(0, 527, 0, 34)
@@ -363,7 +363,7 @@ function _G.Window(text,logo)
 		txdlid.Position = UDim2.new(0.25, 0, 0.25, 0)
 		txdlid.Size = UDim2.new(0, 175, 0, 24)
 		txdlid.Font = Enum.Font.GothamSemibold
-		txdlid.TextColor3 = Color3.fromRGB(0, 194, 135)
+		txdlid.TextColor3 = Color3.fromRGB(255, 25, 25)
 		txdlid.TextSize = 13.000
 		txdlid.Text = text
 		txdlid.TextXAlignment = Enum.TextXAlignment.Left
@@ -1094,7 +1094,7 @@ function _G.Window(text,logo)
 				Corner2.Name = "Corner2"
 				Corner2.Parent = Corner1
 				Corner2.AnchorPoint = Vector2.new(0.5, 0.5)
-				Corner2.BackgroundColor3 = Color3.fromRGB(14, 199, 143)
+				Corner2.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
 				Corner2.BorderSizePixel = 0
 				Corner2.Position = UDim2.new(0.200000003, 0, 0.5, 0)
 				Corner2.Size = UDim2.new(0, 15, 0, 15)
