@@ -281,13 +281,13 @@ function _G.Window(text,logo)
 	NameReal.Parent = MainSceen
 	NameReal.Active = true
 	NameReal.AnchorPoint = Vector2.new(0.5, 0)
-	NameReal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	NameReal.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 	NameReal.BackgroundTransparency = 1.000
 	NameReal.Position = UDim2.new(0.513530612, 17, 0.0316386409, 0)
 	NameReal.Size = UDim2.new(0.931070328, -14, -0.0002422783, 20)
 	NameReal.Font = Enum.Font.GothamSemibold
 	NameReal.Text = tostring(text)
-	NameReal.TextColor3 = Color3.fromRGB(255, 25, 25)
+	NameReal.TextColor3 = Color3.fromRGB(246, 8, 8)
 	NameReal.TextSize = 15.000
 	NameReal.TextWrapped = true
 	NameReal.TextXAlignment = Enum.TextXAlignment.Left
