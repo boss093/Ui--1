@@ -96,21 +96,21 @@ local Properties = {
 		BackgroundTransparency = 1,
 		Image = "http://www.roblox.com/asset/?id=5554237731",
 		ScaleType = Enum.ScaleType.Slice,
-		SliceCenter = Rect.new(3,3,297,297)
+		SliceCenter = Rect.new(3,255, 25, 25)
 	},
 	SmoothButton = {
 		AutoButtonColor = false,
 		BackgroundTransparency = 1,
 		Image = "http://www.roblox.com/asset/?id=5554237731",
 		ScaleType = Enum.ScaleType.Slice,
-		SliceCenter = Rect.new(3,3,297,297)
+		SliceCenter = Rect.new(3,255, 25, 25)
 	},
 	Shadow = {
 		Name = "Shadow",
 		BackgroundTransparency = 1,
 		Image = "http://www.roblox.com/asset/?id=5554236805",
 		ScaleType = Enum.ScaleType.Slice,
-		SliceCenter = Rect.new(23,23,277,277),
+		SliceCenter = Rect.new(3,255, 25, 25),
 		Size = UDim2.fromScale(1,1) + UDim2.fromOffset(30,30),
 		Position = UDim2.fromOffset(-15,-15)
 	},
@@ -1225,7 +1225,7 @@ function _G.Window(text,logo)
 				lockerframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				lockerframe.BackgroundTransparency = 1
 				lockerframe.BorderSizePixel = 0
-				lockerframe.Size = UDim2.new(0, 407, 0, 41)
+				lockerframe.Size = UDim2.new(0, 255, 0, 25)
 				lockerframe.Position = UDim2.new(0.5, 0, 0.5, 0)
 				lockerframe.AnchorPoint = Vector2.new(0.5, 0.5)
 
